@@ -1,0 +1,27 @@
+.carousel {
+  &-item {
+    img {
+      height: 420px;
+      object-fit: cover;
+    }
+  }
+}
+.slick-arrow .slick-next {
+  display: flex;
+  background: red;
+}
+
+.slick-prev,
+.slick-next::before {
+  color: blue;
+  &:hover {
+    color: blue;
+  }
+}
+.slick-prev,
+.slick-arrow::before {
+  color: blue;
+  &:hover {
+    color: blue;
+  }
+}

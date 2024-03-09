@@ -1,0 +1,50 @@
+h1,
+h3 {
+  text-align: center;
+}
+.back {
+  overflow: hidden;
+}
+.forms {
+  display: grid;
+  flex-direction: column;
+  input {
+    width: 500px;
+    height: 40px;
+    margin: 10px 0 0 500px;
+    border: none;
+    border-bottom: 1px solid black;
+  }
+  button {
+    margin-left: 600px;
+    background: linear-gradient(to right, rgb(137, 38, 173), rgb(56, 18, 194));
+    &:hover {
+      transition: all 9s ease;
+      background: linear-gradient(to left, rgb(8, 126, 173), rgb(19, 39, 107));
+    }
+  }
+}
+.lines {
+  display: flex;
+  align-items: center;
+  margin-left: 600px;
+}
+
+.line {
+  width: 100px;
+  background: black;
+  height: 1px;
+}
+
+.icons {
+  margin-top: 20px;
+  margin-left: 720px;
+  gap: 30px;
+  font-size: 30px;
+}
+
+// .icons {
+// i{
+//     text-align: center;
+// }
+// }
